@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flood Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #577c9b, #457c7f);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 350px;
+            margin: 100px auto;
+            padding: 30px;
+            background: rgb(173, 134, 134);
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        input[type="file"] {
+            margin: 15px 0;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            width: 100%;
+        }
+
+        input[type="submit"] {
+            background: #090f15;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background: #007bff;
+        }
+    </style>
+
+<body>
+
+    <h2>Flood Detection System</h2>
+
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        Upload Image: <input type="file" name="image"><br><br>
+        <input type="submit" value="Check Flood">
+    </form>
+
+</body>
+</html>
