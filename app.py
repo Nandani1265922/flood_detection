@@ -5,7 +5,7 @@ import cv2
 
 app = Flask(__name__)
 
-model = pickle.load(open("model.pkl", "rb"))
+model = pickle.load(open("final_model.pkl", "rb"))
 
 @app.route("/")
 def home():
