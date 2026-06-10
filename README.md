@@ -1,13 +1,13 @@
-**Flood Detection System**
+# Flood Detection System
 A Machine Learning based Flood Detection System Built using Python and Flask
 
-##Features
+## Features
 -Predict Flood possibility
 -User-Friendly web interface
 -Machine Learning model integeration
 -fast prediction system
 
-##Technologies Used
+## Technologies Used
 -Python(NumPy, Pandas)
 -Flask
 -Machine Learning
